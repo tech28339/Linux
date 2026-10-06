@@ -1,0 +1,21 @@
+-----------------------------Basic Linux Commands-----------------------------------------------------
+ls- used to list all the files and directories under the current working directory
+pwd-used to display the path of current working directory
+mkdir- used to create new directories or folders
+cd - used to change the current working directory
+rmdir - used to delete empty directories.
+cat - used to display file contents
+cp - used to copy files or directories
+mv - used to move or rename files and directories.
+rm - used to delete files permanently
+uname - 
+touch - used to create empty files
+locate - used to find files using
+clear - used to clear the terminal
+whoami - display the current user
+df -h - display disk space usage
+wc -l → Number of lines
+wc -w → Number of words
+wc -c → Number of bytes
+wc -m → Number of characters
+
