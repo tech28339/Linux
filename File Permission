@@ -1,1 +1,34 @@
+Directory Permissions
 
+Suppose you have:
+drwxr-x---
+The permissions apply to the directory itself, not the files inside it.
+
+Read (r)
+For a directory, r means:
+Can list filenames
+Example:
+ls mydir
+If you have r permission, you can see:
+file1.txt
+file2.txt
+script.sh
+
+Write (w)
+For a directory, w means:
+Create files
+Delete files
+Rename files
+Example:
+touch newfile.txt
+rm oldfile.txt
+mv a.txt b.txt
+These require write permission on the directory.
+
+Execute (x)
+For a directory, x means:
+Enter/traverse the directory
+Example:
+cd mydir
+Without x:
+cd mydir
